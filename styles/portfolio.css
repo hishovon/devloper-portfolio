@@ -85,9 +85,13 @@ main {
     margin: 0px auto;
 }
 
+.section {
+    margin-top: 130px;
+}
+
 /* about section about */
 .about {
-    margin-top: 130px;
+
 
     background: #FFF8F3;
     border-radius: 10px;
@@ -130,6 +134,7 @@ li {
 .info-container {
     display: flex;
     justify-content: space-around;
+
 }
 
 .about-info {
@@ -145,12 +150,16 @@ li {
 
 /* what i do start */
 .what-i-do {
-    margin-top: 130px;
+
     text-align: center;
     color: #181818;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+
 }
-#call{
+
+#call {
     padding-top: 10px;
     padding-bottom: 150px;
     padding-left: 500px;
@@ -162,11 +171,12 @@ li {
     gap: 24px;
 
 }
-.skill{
+
+.skill {
     background: #FFFFFF;
-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-border-radius: 5px;
-padding: 20px 200px 30px 170px ;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 0px 20px 20px 10px;
 
 }
 
@@ -181,4 +191,66 @@ padding: 20px 200px 30px 170px ;
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* resume styles start */
+.resume-content {
+    display: flex;
+    gap: 24px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.resume .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px ;
+}
+
+.resume.description {
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact start */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color:  #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+
+.contact .section-title{
+    text-align: left;
+    text-decoration: none;
+}
+.contact input, textarea{
+   margin-bottom: 24px;
+   border: 0px;
+   width: 100%;
+   padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
 }
