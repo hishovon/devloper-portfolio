@@ -153,17 +153,18 @@ li {
 
     text-align: center;
     color: #181818;
-    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
     margin-left: 200px;
     margin-right: 200px;
 
 }
 
 #call {
-    padding-top: 10px;
-    padding-bottom: 150px;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding-top: px;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    margin-right: 300;
 }
 
 .skills-container {
@@ -176,7 +177,7 @@ li {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
-    padding: 0px 20px 20px 10px;
+    padding: 15px 20px 20px 10px;
 
 }
 
