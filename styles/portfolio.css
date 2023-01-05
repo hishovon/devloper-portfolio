@@ -25,6 +25,19 @@
     border-radius: 5px;
     background: #FD6E0A;
 }
+#button-primary{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border-color: #FD6E0A;
+    padding: 10px 40px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin-left: 18px;
+}
+
+}
 
 /*  header and navigation styles */
 
